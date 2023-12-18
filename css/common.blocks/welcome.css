@@ -1,0 +1,51 @@
+.welcome {
+    padding: 60px 0;
+    margin-bottom: 115px;
+    background-color: #F6F6F6;
+
+
+}
+
+.welcome__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 95px;
+
+}
+
+@media(min-width:992px) {
+    .welcome__container {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+.welcome__text {
+    font-size: 18px;
+}
+
+.welcome__img {
+    max-width: 550px;
+}
+
+.welcome__content {
+    max-width: 520px;
+}
+
+.welcome__title {
+    max-width: 455px;
+    margin-bottom: 25px;
+}
+
+
+
+.title__red {
+    color: #EE4248;
+}
+
+
+
+.text__red {
+    color: #EE4248;
+}
